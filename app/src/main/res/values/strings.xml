@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detect_text_buttun">Detect</string>
+    <string name="disclamer_start_screen">Disclaimer: this app does’t show an exact result, if you want to be sure of you COVID-19 status. Please, go to the doctor .</string>
+    <string name="description_img_start_screen">Image for start screen</string>
+    <string name="info_collect">"App processing information about you, wait for a few second"</string>
+    <string name="info_finger">Scanning you finger</string>
+    <string name="info_oxygen">Checking air around</string>
+    <string name="info_people">Verifying your breath</string>
+    <string name="exit_to_menu_button">Home</string>
+    <string name="settings_button">Settings</string>
+    <string name="map_button">Map</string>
+</resources>
