@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/relativeHomeLayout"
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
@@ -11,23 +12,30 @@
         android:id="@+id/settings_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/ill_text_view_id"
+        android:drawableTop="@drawable/ic_settings_button"
         android:text="@string/settings_button" />
 
     <Button
         android:id="@+id/map_button"
         android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/ill_text_view_id"
         android:layout_height="wrap_content"
-        android:text="@string/map_button"
-        android:layout_marginStart="300dp"/>
+        android:drawableTop="@drawable/ic_map_button"
+        android:text="@string/map_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ill_text_view"
+        android:id="@+id/ill_text_view_id"
+        android:textSize="133sp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/stepsCounter"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="394dp"
-        android:layout_centerInParent="true"
-        android:text="0"
-        android:textSize="30sp" />
+        android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>

@@ -10,7 +10,8 @@
     <string name="info_finger">Scanning you finger</string>
     <string name="info_oxygen">Checking air around</string>
     <string name="info_people">Verifying your breath</string>
-    <string name="exit_to_menu_button">Home</string>
+    <string name="exit_to_menu_button">Before</string>
     <string name="settings_button">Settings</string>
+    <string name="ill_text_view">ILL</string>
     <string name="map_button">Map</string>
 </resources>

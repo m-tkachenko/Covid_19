@@ -1,19 +1,19 @@
 package com.example.covid_19
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.hardware.Sensor
 import android.hardware.Sensor.TYPE_STEP_COUNTER
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_home.*
+
 
 class HomeActivity : AppCompatActivity(), SensorEventListener {
 
@@ -45,6 +45,13 @@ class HomeActivity : AppCompatActivity(), SensorEventListener {
     override fun onResume() {
         super.onResume()
 
+
+        val pm = packageManager
+        if (pm.hasSystemFeature(PackageManager.FEATURE_SENSOR_STEP_COUNTER)) {
+
+            Toast.makeText(this, "WORK!!!!!!!!!!!", Toast.LENGTH_SHORT).show()
+        }
+
         running = true
 
         val stepsSensor = sensorManager?.getDefaultSensor(TYPE_STEP_COUNTER)
@@ -57,7 +64,6 @@ class HomeActivity : AppCompatActivity(), SensorEventListener {
 
             sensorManager?.registerListener(this, stepsSensor, SensorManager.SENSOR_DELAY_UI)
         }
-
     }
 
     override fun onPause() {
@@ -75,10 +81,12 @@ class HomeActivity : AppCompatActivity(), SensorEventListener {
 
     override fun onSensorChanged(event: SensorEvent?) {
 
+        Toast.makeText(this, "WORK!!!!!!!!!!!", Toast.LENGTH_SHORT).show()
 
-        if(running) {
 
-                stepsCounter.text = "LECHA MOLODEC"
+        if(running == true) {
+
+                stepsCounter.text = "" + event!!.values[0]
         }
     }
 }

@@ -6,6 +6,7 @@
     <uses-feature android:name="android.hardware.sensor.stepdetector" android:required="true"/>
 
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -15,7 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SettingsActivity"></activity>
-        <activity android:name=".MapActivity" />
+        <activity android:name=".MapActivity">
+            <meta-data android:name = "android.support.PARENT_ACTIVITY"
+                android:value = ".HomeActivity" />
+        </activity>
         <activity android:name=".HomeActivity" />
         <activity android:name=".CollectActivity" />
         <activity android:name=".MainActivity">

@@ -7,10 +7,9 @@
     android:orientation="vertical"
     tools:context=".MapActivity">
 
-    <Button
-        android:id="@+id/exit_to_menu_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/exit_to_menu_button"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/covid_map_web_view"/>
 
 </RelativeLayout>

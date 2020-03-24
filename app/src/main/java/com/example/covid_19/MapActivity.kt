@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.activity_covid_map.*
 
 class MapActivity : AppCompatActivity() {
 
@@ -11,11 +12,8 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_covid_map)
 
-        val homeButton = findViewById<Button>(R.id.exit_to_menu_button)
+        covid_map_web_view.loadUrl("https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61")
 
-        homeButton.setOnClickListener {
 
-            startActivity(Intent(this@MapActivity, HomeActivity::class.java))
-        }
     }
 }
