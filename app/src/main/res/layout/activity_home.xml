@@ -9,33 +9,106 @@
     tools:context=".HomeActivity">
 
     <Button
-        android:id="@+id/settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/language_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#ffffff"
         android:layout_toStartOf="@id/ill_text_view_id"
-        android:drawableTop="@drawable/ic_settings_button"
-        android:text="@string/settings_button" />
+        android:drawableTop="@drawable/ic_language_menu" />
 
     <Button
         android:id="@+id/map_button"
-        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_width="70dp"
         android:layout_toEndOf="@id/ill_text_view_id"
-        android:layout_height="wrap_content"
-        android:drawableTop="@drawable/ic_map_button"
-        android:text="@string/map_button"/>
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/ic_map_button" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ill_text_view"
         android:id="@+id/ill_text_view_id"
-        android:textSize="133sp"
+        android:textSize="80sp"
         android:layout_centerHorizontal="true"/>
 
-    <TextView
-        android:id="@+id/stepsCounter"
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ill_text_view_id">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/instructions_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_start"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_first"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_second"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_third"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_fourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_fourth"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/instructions_five"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/instructions_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions_end"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </ScrollView>
 
 
 </RelativeLayout>

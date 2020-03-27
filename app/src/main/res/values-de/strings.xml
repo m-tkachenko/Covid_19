@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="detect_text_buttun">Entdecken</string>
+    <string name="disclamer_start_screen">Haftungsausschluss: Diese App zeigt kein genaues Ergebnis an, wenn Sie sich Ihres COVID-19-Status sicher sein wollen. Bitte, gehen Sie zum Arzt.</string>
+    <string name="ill_text_view">Krank</string>
+    <string name="info_collect">App, die Informationen über Sie verarbeitet, warten Sie ein paar Sekunden.</string>
+    <string name="info_finger">Scannen Sie Ihren Finger</string>
+    <string name="info_oxygen">Kontrolle der Umgebungsluft</string>
+    <string name="info_people">Überprüfen Sie Ihren Atem</string>
+    <string name="instructions_end">Wenn Sie die ersten Anzeichen der Krankheit feststellen, wie z.B. trockenen Husten und hohes Fieber, suchen Sie ärztliche Hilfe auf, wobei Sie zunächst den Selbstisolierungsmodus beachten sollten.</string>
+    <string name="instructions_first">"1. Decken Sie Mund und Nase ab, wenn Sie niesen oder husten. "</string>
+    <string name="instructions_five">5. Verwenden Sie persönliche Hygieneprodukte.</string>
+    <string name="instructions_fourth">4. Waschen Sie Ihre Hände mit Antiseptika und Seife mit Wasser und behandeln Sie die Oberflächen, die Sie berühren möchten.</string>
+    <string name="instructions_second">2. Vermeiden Sie überfüllte Orte und schränken Sie Ihre Bewegung mit öffentlichen Verkehrsmitteln ein.</string>
+    <string name="instructions_start">Sie sind noch nicht krank, aber Sie befinden sich in einer Risikozone. Hier ist eine Zusammenfassung der grundlegenden Verhaltensregeln während der Epidemie:</string>
+    <string name="instructions_third">3. Wenn Sie nach draußen gehen, bedecken Sie Ihre Nase, Ihren Mund und Ihre Wangen mit einer medizinischen Maske.</string>
+</resources>

@@ -1,5 +1,6 @@
 package com.example.covid_19
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -10,24 +11,23 @@ import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
 
-class HomeActivity : AppCompatActivity(), SensorEventListener {
+class HomeActivity : AppCompatActivity() {
 
-    private var running = false
-    private var sensorManager:SensorManager? = null
-
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        lateinit var langBtn : Button
 
-
-        val settingsButton = findViewById<Button>(R.id.settings_button)
+        val settingsButton = findViewById<Button>(R.id.language_button)
 
         settingsButton.setOnClickListener{
 
@@ -40,53 +40,28 @@ class HomeActivity : AppCompatActivity(), SensorEventListener {
 
             startActivity(Intent(this@HomeActivity, MapActivity::class.java))
         }
-    }
 
-    override fun onResume() {
-        super.onResume()
+        langBtn.findViewById<Button>(R.id.language_button)
 
+        langBtn.setOnClickListener {
 
-        val pm = packageManager
-        if (pm.hasSystemFeature(PackageManager.FEATURE_SENSOR_STEP_COUNTER)) {
-
-            Toast.makeText(this, "WORK!!!!!!!!!!!", Toast.LENGTH_SHORT).show()
+            showChangeLang()
         }
 
-        running = true
-
-        val stepsSensor = sensorManager?.getDefaultSensor(TYPE_STEP_COUNTER)
-
-        if (stepsSensor == null) {
-
-            Toast.makeText(this, "No Step Counter Sensor", Toast.LENGTH_SHORT).show()
-        }
-        else {
-
-            sensorManager?.registerListener(this, stepsSensor, SensorManager.SENSOR_DELAY_UI)
-        }
     }
 
-    override fun onPause() {
-        super.onPause()
+    private fun showChangeLang() {
 
-        running = false
+        val listLang = arrayOf("English", "Русский", "Українскій", "Deutcsh")
 
-        sensorManager?.unregisterListener(this)
-    }
+        val mBuilder = AlertDialog.Builder(this@HomeActivity)
+        mBuilder.setTitle("Choose Language")
+        mBuilder.setSingleChoiceItems(listLang,-1) { dialog, which ->
 
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-
-    }
-
-
-    override fun onSensorChanged(event: SensorEvent?) {
-
-        Toast.makeText(this, "WORK!!!!!!!!!!!", Toast.LENGTH_SHORT).show()
-
-
-        if(running == true) {
-
-                stepsCounter.text = "" + event!!.values[0]
+            if (which == 0) {
+                setLocate("uk-rUA")
+                recreate()
+            }
         }
     }
 }
