@@ -9,33 +9,24 @@
     tools:context=".HomeActivity">
 
     <Button
-        android:id="@+id/language_button"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="#ffffff"
-        android:layout_toStartOf="@id/ill_text_view_id"
-        android:drawableTop="@drawable/ic_language_menu" />
-
-    <Button
         android:id="@+id/map_button"
-        android:background="#ffffff"
-        android:layout_width="70dp"
-        android:layout_toEndOf="@id/ill_text_view_id"
-        android:layout_height="70dp"
+        android:layout_below="@id/ill_text_view_id"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="90dp"
         android:drawableTop="@drawable/ic_map_button" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ill_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorAccent"
         android:id="@+id/ill_text_view_id"
-        android:textSize="80sp"
         android:layout_centerHorizontal="true"/>
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ill_text_view_id">
+        android:layout_below="@id/map_button">
 
         <LinearLayout
             android:layout_width="wrap_content"

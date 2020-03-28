@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Covid-19</string>
-    <string name="ill_text_view">Больной</string>
+    <string name="ill_text_view">Болен</string>
     <string name="info_collect">Приложение, обрабатывает информацию о вас, подождите несколько секунд.</string>
     <string name="info_finger">Сканирование вашего пальца</string>
     <string name="info_oxygen">Проверка воздуха вокруг</string>

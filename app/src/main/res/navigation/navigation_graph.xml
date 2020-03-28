@@ -30,9 +30,4 @@
         android:name="com.example.covid_19.MapActivity"
         android:label="activity_covid_map"
         tools:layout="@layout/activity_covid_map" />
-    <activity
-        android:id="@+id/settingsActivity"
-        android:name="com.example.covid_19.SettingsActivity"
-        android:label="activity_settings"
-        tools:layout="@layout/activity_settings" />
 </navigation>
