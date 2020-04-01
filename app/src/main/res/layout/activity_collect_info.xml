@@ -4,77 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212121"
     android:orientation="vertical"
     tools:context=".CollectActivity">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/text_disclamer_border"
-        android:text="@string/info_collect"
-        android:textAlignment="center"
-        android:textColor="#9b0000"
-        android:textSize="30sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/info_finger"
-        android:layout_marginTop="200dp"
-        android:textColor="#9b0000"
-        android:textSize="30sp"
-        android:textAlignment="center"/>
-
-    <ProgressBar
-        android:id="@+id/progress_bar_finger"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:progressDrawable="@drawable/progressbar_custom"
-        android:layout_marginTop="250dp"
-        android:max="55"
-        android:progress="0"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/info_oxygen"
-        android:layout_marginTop="330dp"
-        android:textColor="#9b0000"
-        android:textSize="30sp"
-        android:textAlignment="center"/>
-
-    <ProgressBar
-        android:id="@+id/progress_bar_oxygen"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:progressDrawable="@drawable/progressbar_custom"
-        android:layout_marginTop="380dp"
-        android:max="70"
-        android:progress="0"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/info_people"
-        android:layout_marginTop="450dp"
-        android:textColor="#9b0000"
-        android:textSize="30sp"
-        android:textAlignment="center"/>
-
-    <ProgressBar
-        android:id="@+id/progress_bar_breath"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:progressDrawable="@drawable/progressbar_custom"
-        android:layout_marginTop="500dp"
-        android:max="98"
-        android:progress="0"/>
 
 </RelativeLayout>

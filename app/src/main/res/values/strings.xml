@@ -4,19 +4,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="detect_text_buttun">Detect</string>
-    <string name="description_img_start_screen" translatable="false">Image for start screen</string>
-    <string name="info_collect">App processing information about you, wait for a few second.</string>
-    <string name="info_oxygen">Checking air around</string>
-    <string name="info_people">Verifying your breath</string>
     <string name="instructions_start">You are not sick yet, but you are at risk zone. Here is a summary of the basic rules of behavior during the epidemic:</string>
     <string name="instructions_second">2. Avoid crowded places and limit your movement by public transport.</string>
     <string name="instructions_third">3. When going outside, cover your nose, mouth and cheeks with a medical mask.</string>
     <string name="instructions_fourth">4. Wash your hands with antiseptics and soap with water, and treat the surfaces you want to touch.</string>
     <string name="instructions_five">5. Use personal hygiene products.</string>
     <string name = "instructions_end">If you detect the first signs of the disease, such as a dry cough and a high temperature, seek medical help, first observing the self-isolation mode.</string>
-    <string name="info_finger">Scanning you finger</string>
     <string name="instructions_first">"1. Cover your mouth and nose when sneezing or coughing. "</string>
-    <string name="disclamer_start_screen">Disclaimer: this app does’t show an exact result, if you want to be sure of you COVID-19 status. Please, go to the doctor.</string>
+    <string name="disclamer_text">Disclamer</string>
+    <string name="disclamer_content">This app does’t show an exact result, if you want to be sure of you COVID-19 status. Please, go to the doctor.</string>
     <string name="ill_text_view">ILL</string>
 
 </resources>

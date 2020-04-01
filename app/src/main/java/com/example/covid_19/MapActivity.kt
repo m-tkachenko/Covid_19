@@ -12,7 +12,7 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_covid_map)
 
-        covid_map_web_view.loadUrl("https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61")
+        covid_map_web_view.loadUrl("https://www.worldometers.info/coronavirus/")
 
 
     }

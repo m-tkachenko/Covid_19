@@ -2,10 +2,6 @@
 <resources>
     <string name="app_name">Covid-19</string>
     <string name="ill_text_view">Болен</string>
-    <string name="info_collect">Приложение, обрабатывает информацию о вас, подождите несколько секунд.</string>
-    <string name="info_finger">Сканирование вашего пальца</string>
-    <string name="info_oxygen">Проверка воздуха вокруг</string>
-    <string name="info_people">Проверка вашего дыхания</string>
     <string name="instructions_end">"При обнаружении первых признаков заболевания, таких как сухой кашель и высокая температура, обратитесь за медицинской помощью, предварительно соблюдая режим самоизоляции.   "</string>
     <string name="instructions_first">"Прикрывайте рот, ніс и щоки під час чихання та кашлю. "</string>
     <string name="instructions_second">"2. Избегайте людных мест и ограничьте перемещение общественным транспортом.  "</string>
@@ -14,5 +10,6 @@
     <string name="instructions_five">"5. Используйте личные средства гигиены. "</string>
     <string name="instructions_start">"При обнаружении первых признаков заболевания, таких как сухой кашель и высокая температура, обратитесь за медицинской помощью, предварительно соблюдая режим самоизоляции.  "</string>
     <string name="detect_text_buttun">Обнаружить</string>
-    <string name="disclamer_start_screen">Предупреждение: это приложение не показывает точный результат, если вы хотите быть уверены в своем статусе COVID-19. Пожалуйста, сходите к врачу.</string>
+    <string name="disclamer_text">Предупреждение</string>
+    <string name="disclamer_content">Это приложение не показывает точный результат, если вы хотите быть уверены в своем статусе COVID-19. Пожалуйста, сходите к врачу.</string>
 </resources>

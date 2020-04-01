@@ -2,12 +2,9 @@
 <resources>
     <string name="app_name">Covid-19</string>
     <string name="detect_text_buttun">Wykryć</string>
-    <string name="disclamer_start_screen">Ostrzeżenie: ta aplikacja nie pokazuje dokładnego wyniku, jeśli chcesz mieć pewność COVID-19. Proszę pójść do lekarza.</string>
+    <string name="disclamer_text">Ostrzeżenie</string>
+    <string name="disclamer_content">Ta aplikacja nie pokazuje dokładnego wyniku, jeśli chcesz mieć pewność COVID-19. Proszę pójść do lekarza.</string>
     <string name="ill_text_view">Chory</string>
-    <string name="info_collect">Aplikacja przetwarza informacje o Tobie, poczekaj kilka sekund.</string>
-    <string name="info_finger">Skanowanie palca</string>
-    <string name="info_oxygen">Kontrola powietrza wokół</string>
-    <string name="info_people">Weryfikacja oddechu</string>
     <string name="instructions_end">W przypadku wykrycia pierwszych objawów choroby, takich jak suchy kaszel i wysoka temperatura, należy zwrócić się o pomoc lekarską, najpierw nie wychodzić z domu.</string>
     <string name="instructions_first">"1. Zakryj usta i nos przy kichaniu lub kaszleniu. "</string>
     <string name="instructions_five">5. Stosować środki higieny osobistej.</string>

@@ -2,12 +2,9 @@
 <resources>
     <string name="app_name">Covid-19</string>
     <string name="detect_text_buttun">Виявити</string>
-    <string name="disclamer_start_screen">Предостереженя: ця програма не показує точний результат, якщо ви хочете бути впевнені в своєму статусі COVID-19. Будь ласка, сходіть до лікаря.</string>
+    <string name="disclamer_text">Предостереженя</string>
+    <string name="disclamer_content">Ця програма не показує точний результат, якщо ви хочете бути впевнені в своєму статусі COVID-19. Будь ласка, сходіть до лікаря.</string>
     <string name="ill_text_view">Хворий</string>
-    <string name="info_collect">Додаток обробляє інформацію про вас, почекайте кілька секунд.</string>
-    <string name="info_finger">Сканування вашого пальця</string>
-    <string name="info_oxygen">Перевірка повітря навколо</string>
-    <string name="info_people">Перевірка вашого дихання</string>
     <string name="instructions_end">При виявленні перших ознак захворювання, таких як сухий кашель і висока температура, зверніться за медичною допомогою, попередньо дотримуючись режим самоізоляції.</string>
     <string name="instructions_start">"Ви ще не захворіли, але знаходитися в зоні ризику, ось основні правила поведінки під час єпідемії. "</string>
     <string name="instructions_first">"1. Закривайте рот, ніс и щоки під час чихання та кашлю. "</string>

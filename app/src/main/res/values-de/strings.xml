@@ -2,12 +2,9 @@
 <resources>
     <string name="app_name">Covid-19</string>
     <string name="detect_text_buttun">Entdecken</string>
-    <string name="disclamer_start_screen">Haftungsausschluss: Diese App zeigt kein genaues Ergebnis an, wenn Sie sich Ihres COVID-19-Status sicher sein wollen. Bitte, gehen Sie zum Arzt.</string>
+    <string name="disclamer_text">Haftungsausschluss</string>
+    <string name="disclamer_content">Diese App zeigt kein genaues Ergebnis an, wenn Sie sich Ihres COVID-19-Status sicher sein wollen. Bitte, gehen Sie zum Arzt.</string>
     <string name="ill_text_view">Krank</string>
-    <string name="info_collect">App, die Informationen über Sie verarbeitet, warten Sie ein paar Sekunden.</string>
-    <string name="info_finger">Scannen Sie Ihren Finger</string>
-    <string name="info_oxygen">Kontrolle der Umgebungsluft</string>
-    <string name="info_people">Überprüfen Sie Ihren Atem</string>
     <string name="instructions_end">Wenn Sie die ersten Anzeichen der Krankheit feststellen, wie z.B. trockenen Husten und hohes Fieber, suchen Sie ärztliche Hilfe auf, wobei Sie zunächst den Selbstisolierungsmodus beachten sollten.</string>
     <string name="instructions_first">"1. Decken Sie Mund und Nase ab, wenn Sie niesen oder husten. "</string>
     <string name="instructions_five">5. Verwenden Sie persönliche Hygieneprodukte.</string>
