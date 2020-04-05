@@ -1,4 +1,4 @@
-package com.example.covid_19
+package com.saloYD.covid_19
 
 import android.annotation.SuppressLint
 import android.content.Intent

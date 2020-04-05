@@ -1,9 +1,7 @@
-package com.example.covid_19
+package com.saloYD.covid_19
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_covid_map.*
 
 class MapActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.covid_19
+package com.saloYD.covid_19
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.example.covid_19.StartActivity"
+        android:name="com.saloYD.covid_19.StartActivity"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
@@ -16,18 +16,18 @@
     </fragment>
     <activity
         android:id="@+id/collectInfo"
-        android:name="com.example.covid_19.CollectActivity"
+        android:name="com.saloYD.covid_19.CollectActivity"
         android:label="activity_collect_info"
         app:action="collectInfo2 "
         tools:layout="@layout/activity_collect_info" />
     <activity
         android:id="@+id/homeActivity"
-        android:name="com.example.covid_19.HomeActivity"
+        android:name="com.saloYD.covid_19.HomeActivity"
         android:label="activity_home"
         tools:layout="@layout/activity_home" />
     <activity
         android:id="@+id/mapActivity"
-        android:name="com.example.covid_19.MapActivity"
+        android:name="com.saloYD.covid_19.MapActivity"
         android:label="activity_covid_map"
         tools:layout="@layout/activity_covid_map" />
 </navigation>

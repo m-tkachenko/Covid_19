@@ -1,20 +1,11 @@
-package com.example.covid_19
+package com.saloYD.covid_19
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
-import androidx.core.view.isVisible
-import kotlinx.android.synthetic.main.activity_collect_info.*
-import org.w3c.dom.Text
-import java.util.*
 
 @Suppress("UNREACHABLE_CODE")
 class CollectActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.covid_19">
+    package="com.saloYD.covid_19">
 
     <uses-feature android:name="android.hardware.sensor.stepcounter" android:required="true"/>
     <uses-feature android:name="android.hardware.sensor.stepdetector" android:required="true"/>
@@ -18,15 +18,15 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5339322684010455~9420553972"/>
+            android:value="ca-app-pub-8286875568812475~8213383705"/>
 
-        <activity android:name=".MapActivity">
+        <activity android:name="com.saloYD.covid_19.MapActivity">
             <meta-data android:name = "android.support.PARENT_ACTIVITY"
-                android:value = ".HomeActivity" />
+                android:value = "com.saloYD.covid_19.HomeActivity" />
         </activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".CollectActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.saloYD.covid_19.HomeActivity" />
+        <activity android:name="com.saloYD.covid_19.CollectActivity" />
+        <activity android:name="com.saloYD.covid_19.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
