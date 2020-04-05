@@ -4,15 +4,42 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="detect_text_buttun">Detect</string>
+    
     <string name="instructions_start">You are not sick yet, but you are at risk zone. Here is a summary of the basic rules of behavior during the epidemic:</string>
     <string name="instructions_second">2. Avoid crowded places and limit your movement by public transport.</string>
     <string name="instructions_third">3. When going outside, cover your nose, mouth and cheeks with a medical mask.</string>
     <string name="instructions_fourth">4. Wash your hands with antiseptics and soap with water, and treat the surfaces you want to touch.</string>
     <string name="instructions_five">5. Use personal hygiene products.</string>
-    <string name = "instructions_end">If you detect the first signs of the disease, such as a dry cough and a high temperature, seek medical help, first observing the self-isolation mode.</string>
+    <string name="instructions_end">If you detect the first signs of the disease, such as a dry cough and a high temperature, seek medical help, first observing the self-isolation mode.</string>
     <string name="instructions_first">"1. Cover your mouth and nose when sneezing or coughing. "</string>
+    
     <string name="disclamer_text">Disclamer</string>
     <string name="disclamer_content">This app does’t show an exact result, if you want to be sure of you COVID-19 status. Please, go to the doctor.</string>
-    <string name="ill_text_view">ILL</string>
+    
+    <string name="status_positive">ILL</string>
+    <string name="status_negative">Healthy</string>
+    
+    <string name="please_string">Please answer these questions :)</string>
+    <string name="first_question">1. How often do you go outside?</string>
+    <string name="radio_but_one">Every day</string>
+    <string name="radio_but_three">Once a week</string>
+    <string name="second_question">2. How many times a day do you wash your hands or use antiseptic?</string>
+    <string name="radio_but_four">Twice a day</string>
+    <string name="radio_but_five">Every time when I come home</string>
+    <string name="third_question">3. How do you think you are ill?</string>
+    <string name="radio_but_six">Yes</string>
+    <string name="radio_but_seven">No</string>
+    <string name="submit_button">Submit</string>
+    <string name="radio_but_two">Three times a week</string>
+    
+    <string name="instruction_start_ill">There is a high chance that you are ill!</string>
+    <string name="instruction_first_ill">1. Limit your activities with the outside world, isolate yourself in a separate room.</string>
+    <string name="instruction_second_ill">2. If you do not live alone then keep a distance from the rest of the residents.</string>
+    <string name="instruction_third_ill">3. Don\'t go to the hospital!</string>
+    <string name="instruction_fouth_ill">Call to the hospital and tell them that you may be sick on COVID-19. After the doctors verdict, take action.</string>
+    <string name="instruction_five_ill">5. If you know for sure that you are sick on COVID-19, tell everyone who has contacted you recently to monitor their health.</string>
+    <string name="instruction_end_ill">If there are clear signs of the disease, self-isolate for 14 days.</string>
+
 
 </resources>
+

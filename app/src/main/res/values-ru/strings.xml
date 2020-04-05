@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Covid-19</string>
-    <string name="ill_text_view">Болен</string>
+    <string name="status_positive">Болен</string>
+    <string name="status_negative">Здоров</string>
     <string name="instructions_end">"При обнаружении первых признаков заболевания, таких как сухой кашель и высокая температура, обратитесь за медицинской помощью, предварительно соблюдая режим самоизоляции.   "</string>
-    <string name="instructions_first">"Прикрывайте рот, ніс и щоки під час чихання та кашлю. "</string>
     <string name="instructions_second">"2. Избегайте людных мест и ограничьте перемещение общественным транспортом.  "</string>
     <string name="instructions_third">"3. При выходе на улице закройте нос, рот и щеки медицинской маской. "</string>
     <string name="instructions_fourth">"4. Мойте руки антисептиками и мылом с водой, а также обрабатывайте поверхности к которым хотите прикоснуться. "</string>
     <string name="instructions_five">"5. Используйте личные средства гигиены. "</string>
-    <string name="instructions_start">"При обнаружении первых признаков заболевания, таких как сухой кашель и высокая температура, обратитесь за медицинской помощью, предварительно соблюдая режим самоизоляции.  "</string>
+    <string name="instructions_start">"Вы еще не больны, но находитесь в зоне риска, вот сводка основных правил поведения во время эпидемии."</string>
     <string name="detect_text_buttun">Обнаружить</string>
     <string name="disclamer_text">Предупреждение</string>
     <string name="disclamer_content">Это приложение не показывает точный результат, если вы хотите быть уверены в своем статусе COVID-19. Пожалуйста, сходите к врачу.</string>
+    <string name="please_string">Пожалуйста, ответьте на вопросы ниже :)</string>
+    <string name="first_question">1. Как часто вы выходите на улицу?</string>
+    <string name="radio_but_two">Три раза в неделю</string>
+    <string name="radio_but_one">Каждый день</string>
+    <string name="radio_but_three">Раз в неделю</string>
+    <string name="second_question">2. Как часто вы моете руки или используете антисептик?</string>
+    <string name="radio_but_four">Два раза в день</string>
+    <string name="radio_but_five">Каждый раз когда прихожу домой</string>
+    <string name="third_question">3. Считаете ли вы себя больным?</string>
+    <string name="radio_but_six">Да</string>
+    <string name="radio_but_seven">Нет</string>
+    <string name="submit_button">Потвердить</string>
+    <string name="instructions_first">1. Закрывайте рот и нос при чихании и кашле.</string>
+    <string name="instruction_start_ill">" Есть высокий шанс того что вы больны!"</string>
+    <string name="instruction_first_ill">1. Ограничьте свою деятельность с окружающим миром , изолируйтесь в отдельной комнате.</string>
+    <string name="instruction_second_ill">"2. Если вы живете не одни то держите дистанцию с остальными жильцами. "</string>
+    <string name="instruction_third_ill">3. Ни в коем случае не идите в больницу!</string>
+    <string name="instruction_fouth_ill">4. Позвоните в больницу и скажите что вы возможно больны на COVID-19. После вердикта врачей предпринимайте действия.</string>
+    <string name="instruction_five_ill">5. Если вы точно знаете что больны на COVID-19, скажите всем кто контактировал с вами за последнее время следить за состоянием своего здоровья.</string>
+    <string name="instruction_end_ill">Если есть явные признаки заболевания ,самоизолироватся на 14 дней.</string>
 </resources>

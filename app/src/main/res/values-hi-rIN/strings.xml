@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="detect_text_buttun">पता लगाना</string>
+    <string name="disclamer_text">अस्वीकरण</string>
+    <string name="disclamer_content">" यदि आप COVID-19 स्थिति के बारे में सुनिश्चित होना चाहते हैं, तो यह ऐप सटीक परिणाम नहीं दिखाता है। कृपया, डॉक्टर के पास जाएं।"</string>
+    <string name="status_positive">" बीमार"</string>
+    <string name="status_negative">" स्वस्थ"</string>
+    <string name="instructions_first">1. छींकने या खांसने जब अपने मुंह और नाक को कवर किया ।</string>
+    <string name="instructions_start">आप अभी तक बीमार नहीं हैं, लेकिन आप खतरे में हैं . यहाँ महामारी के दौरान व्यवहार के बुनियादी नियमों का एक सारांश है ।</string>
+    <string name="instructions_five">5. व्यक्तिगत स्वच्छता उत्पादों का उपयोग करें ।</string>
+    <string name="instructions_fourth">4. दवाइयों और साबुन और पानी से अपने हाथ धो लें, और आप छूना चाहता हूँ सतहों का इलाज ।</string>
+    <string name="instructions_third">3. जब बाहर जा रहे हैं, एक चिकित्सा मुखौटा के साथ अपनी नाक, मुंह और गालों को कवर किया ।</string>
+    <string name="instructions_second">2. भीड़ भरे स्थानों से बचें और सार्वजनिक परिवहन के द्वारा अपने आंदोलन को सीमित ।</string>
+    <string name="instructions_end">" आप इस तरह के एक सूखी खाँसी और एक उच्च तापमान के रूप में रोग का पहला लक्षण , का पता लगाने , तो पहले आत्म अलगाव मोड देख, चिकित्सा सहायता चाहते हैं ।"</string>
+    <string name="please_string">नीचे दिए गए सवालों का जवाब दें .</string>
+    <string name="first_question">1. कितनी बार आप बाहर जाना है ?</string>
+    <string name="radio_but_two">सप्ताह में तीन बार</string>
+    <string name="radio_but_one">हर दिन</string>
+    <string name="radio_but_three">सप्ताह में एक बार</string>
+    <string name="second_question">2. कितनी बार आप अपने हाथ धोने या एक एंटीसेप्टिक का उपयोग करते हैं?</string>
+    <string name="radio_but_four">दो बार दैनिक</string>
+    <string name="radio_but_five">हर बार जब मैं घर आ</string>
+    <string name="third_question">3. आप बीमार महसूस करते हैं?</string>
+    <string name="radio_but_six">हाँ</string>
+    <string name="radio_but_seven">नहीं।</string>
+    <string name="submit_button">" प्रस्तुत"</string>
+    <string name="instruction_start_ill">वहाँ एक उच्च मौका है कि आप बीमार हैं!</string>
+    <string name="instruction_first_ill">1. बाहर की दुनिया के साथ अपनी गतिविधियों को सीमित करें, और आप अकेले नहीं रहते हैं.</string>
+    <string name="instruction_second_ill">2. तो अन्य निवासियों से अपनी दूरी रखने के लिए, एक अलग कमरे में रहते हैं ।</string>
+    <string name="instruction_third_ill">3. अस्पताल जाना नहीं है!</string>
+    <string name="instruction_fouth_ill">4.  एक एम्बुलेंस फोन और उन्हें आप कोविड -19 से बीमार हो सकता है कि पता करते हैं ।  डॉक्टरों के फैसले के बाद, वे तुम्हें दे देंगे कि सभी निर्देशों का पालन करें</string>
+    <string name="instruction_five_ill">"5.  क्या आप कोविड -19 से बीमार हैं कि सुनिश्चित करने के लिए पता है, वे अपने स्वास्थ्य की स्थिति पर नजर रखने के लिए इतना है कि आप हाल ही के साथ संपर्क में किया गया है सभी लोगों को सूचित करें "</string>
+    <string name="instruction_end_ill">।  वे रोग के लक्षण है, तो वे तुरंत 14 दिनों के लिए आत्म-अलगाव के लिए जाना ।</string>
+</resources>

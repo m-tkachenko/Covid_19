@@ -15,7 +15,11 @@
         android:roundIcon="@mipmap/covid_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SettingsActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5339322684010455~9420553972"/>
+
         <activity android:name=".MapActivity">
             <meta-data android:name = "android.support.PARENT_ACTIVITY"
                 android:value = ".HomeActivity" />

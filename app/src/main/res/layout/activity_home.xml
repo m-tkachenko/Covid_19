@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_margin="8dp"
+    android:layout_margin="6dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundWhite"
@@ -12,23 +12,31 @@
 
     <Button
         android:id="@+id/map_button"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_below="@id/ill_text_view_id"
-        android:layout_width="330dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/status_text_view"
+        android:layout_width="325dp"
         android:background="@drawable/map_button_style"
         android:layout_centerHorizontal="true"
         android:layout_height="50dp"
         android:drawableTop="@drawable/map_icon_button" />
 
     <TextView
+        android:id="@+id/status_text_view"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/colorAccent"
-        android:id="@+id/ill_text_view_id"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/status_background_style"
+        android:text="@string/status_negative"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="81sp"
+        android:fontFamily="@font/joseph"
+        android:textColor="@color/colorBackgroundWhite"
         android:layout_centerHorizontal="true"/>
 
     <ScrollView
+        android:id="@+id/scroll_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/map_button">
@@ -116,6 +124,18 @@
                 android:paddingBottom="10dp"
                 android:textSize="20sp"
                 android:textAlignment="center"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
         </LinearLayout>
 
     </ScrollView>

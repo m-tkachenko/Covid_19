@@ -4,7 +4,8 @@
     <string name="detect_text_buttun">Entdecken</string>
     <string name="disclamer_text">Haftungsausschluss</string>
     <string name="disclamer_content">Diese App zeigt kein genaues Ergebnis an, wenn Sie sich Ihres COVID-19-Status sicher sein wollen. Bitte, gehen Sie zum Arzt.</string>
-    <string name="ill_text_view">Krank</string>
+    <string name="status_positive">Krank</string>
+    <string name="status_negative">Gesund</string>
     <string name="instructions_end">Wenn Sie die ersten Anzeichen der Krankheit feststellen, wie z.B. trockenen Husten und hohes Fieber, suchen Sie ärztliche Hilfe auf, wobei Sie zunächst den Selbstisolierungsmodus beachten sollten.</string>
     <string name="instructions_first">"1. Decken Sie Mund und Nase ab, wenn Sie niesen oder husten. "</string>
     <string name="instructions_five">5. Verwenden Sie persönliche Hygieneprodukte.</string>
@@ -12,4 +13,23 @@
     <string name="instructions_second">2. Vermeiden Sie überfüllte Orte und schränken Sie Ihre Bewegung mit öffentlichen Verkehrsmitteln ein.</string>
     <string name="instructions_start">Sie sind noch nicht krank, aber Sie befinden sich in einer Risikozone. Hier ist eine Zusammenfassung der grundlegenden Verhaltensregeln während der Epidemie:</string>
     <string name="instructions_third">3. Wenn Sie nach draußen gehen, bedecken Sie Ihre Nase, Ihren Mund und Ihre Wangen mit einer medizinischen Maske.</string>
+    <string name="radio_but_two">"Dreimal pro Woche  "</string>
+    <string name="please_string">Bitte beantworten Sie die Fragen unten :)</string>
+    <string name="first_question">"1. Wie oft gehen Sie nach draußen? "</string>
+    <string name="radio_but_one">Jeden Tag</string>
+    <string name="radio_but_three">Einmal wöchentlich</string>
+    <string name="second_question">2. Wie oft waschen Sie Ihre Hände oder verwenden Sie ein Antiseptikum?</string>
+    <string name="radio_but_four">Zweimal täglich</string>
+    <string name="radio_but_five">Jedes mal, wenn ich nach Hause komme</string>
+    <string name="third_question">3. Fühlst du dich krank?</string>
+    <string name="radio_but_six">Ja</string>
+    <string name="radio_but_seven">Nein</string>
+    <string name="submit_button">Einreichen</string>
+    <string name="instruction_start_ill">"Es besteht eine hohe chance, dass Sie krank sind!  "</string>
+    <string name="instruction_second_ill">2. Wenn Sie nicht alleine Leben, dann halten Sie Abstand vom rest der Bewohner.</string>
+    <string name="instruction_first_ill">Begrenzen Sie Ihre Aktivitäten mit der Außenwelt, isolieren Sie sich in einem separaten Raum.</string>
+    <string name="instruction_third_ill">3. Geh nicht ins Krankenhaus!</string>
+    <string name="instruction_fouth_ill">"4. Rufen Sie im Krankenhaus an und sagen Sie Ihnen, dass Sie an COVID-19 krank sein können. Nach dem Urteil der ärzte handeln. "</string>
+    <string name="instruction_end_ill">Um Ihre Gesundheit zu überwachen, wenn es klare Anzeichen der Krankheit gibt, für 14 Tage selbst isolieren.</string>
+    <string name="instruction_five_ill">5. Wenn Sie sicher wissen, dass Sie an COVID-19 krank sind, sagen Sie allen, die Sie vor kurzem kontaktiert haben.</string>
 </resources>

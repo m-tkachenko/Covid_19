@@ -1,14 +1,15 @@
 package com.example.covid_19
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 
 class StartActivity : Fragment() {
 
@@ -23,7 +24,10 @@ class StartActivity : Fragment() {
         detectButton.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_startFragment_to_collectInfo2)
         )
-
+        MobileAds.initialize(this.activity)
+        var mAdView = v.findViewById(R.id.adView) as AdView
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
 
         return v
     }

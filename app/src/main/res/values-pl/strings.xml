@@ -4,7 +4,8 @@
     <string name="detect_text_buttun">Wykryć</string>
     <string name="disclamer_text">Ostrzeżenie</string>
     <string name="disclamer_content">Ta aplikacja nie pokazuje dokładnego wyniku, jeśli chcesz mieć pewność COVID-19. Proszę pójść do lekarza.</string>
-    <string name="ill_text_view">Chory</string>
+    <string name="status_positive">Chory</string>
+    <string name="status_negative">Zdrowy</string>
     <string name="instructions_end">W przypadku wykrycia pierwszych objawów choroby, takich jak suchy kaszel i wysoka temperatura, należy zwrócić się o pomoc lekarską, najpierw nie wychodzić z domu.</string>
     <string name="instructions_first">"1. Zakryj usta i nos przy kichaniu lub kaszleniu. "</string>
     <string name="instructions_five">5. Stosować środki higieny osobistej.</string>
@@ -12,4 +13,23 @@
     <string name="instructions_second">2. Unikaj zatłoczonych miejsc i ograniczaj swój ruch środkami transportu publicznego.</string>
     <string name="instructions_start">Nie jesteś jeszcze chory, ale jesteś w strefie ryzyka. Oto podsumowanie podstawowych zasad zachowania się podczas epidemii:</string>
     <string name="instructions_third">3. Wychodząc na zewnątrz, zakryj nos, usta i policzki maską medyczną.</string>
+    <string name="please_string">"Odpowiedz na następujące pytania :) "</string>
+    <string name="first_question">1. Jak często wychodzisz z domu?</string>
+    <string name="radio_but_one">Każdego dnia</string>
+    <string name="radio_but_three">Raz w tygodniu</string>
+    <string name="radio_but_two">Trzy razy w tygodniu</string>
+    <string name="second_question">2. Jak często myjesz ręce lub używasz środka antyseptycznego?</string>
+    <string name="radio_but_four">Dwa razy dziennie</string>
+    <string name="radio_but_five">Za każdym razem, gdy wracam do domu</string>
+    <string name="third_question">3. Czy czujesz się chory?</string>
+    <string name="radio_but_six">Tak</string>
+    <string name="radio_but_seven">Nie</string>
+    <string name="submit_button">Zapisać</string>
+    <string name="instruction_start_ill">Istnieje duża szansa, że jesteś chory!</string>
+    <string name="instruction_first_ill">1. Ogranicz swoje działania do świata zewnętrznego, izoluj się w prywatnym pokoju.</string>
+    <string name="instruction_second_ill">2. Jeśli nie mieszkasz sam, trzymaj dystans z resztą lokatorów.</string>
+    <string name="instruction_third_ill">3. W żadnym wypadku nie idź do szpitala!</string>
+    <string name="instruction_fouth_ill">4. Zadzwoń do szpitala i powiedz, że możesz być chorym na COVID-19. Po werdykcie lekarzy podejmij działania.</string>
+    <string name="instruction_five_ill">5. Jeśli wiesz na pewno, że zachorowałeś na COVID-19, daj znać każdemu, kto niedawno miał z tobą kontakt, aby monitorować ich zdrowie.</string>
+    <string name="instruction_end_ill">Jeśli istnieją wyraźne oznaki choroby, samoizolacja przez 14 dni.</string>
 </resources>

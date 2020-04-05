@@ -7,5 +7,6 @@
     <color name="colorBlack">#000000</color>
     <color name="colorOrangeDetect">#ffc000</color>
     <color name="colorBackgroundWhite">#f9fbfd</color>
-    <color name="colorGlobalBlue">#2279ff</color>
+    <color name="colorStatusGreen">#a3d296</color>
+    <color name="colorStatusRed">#ff5b19</color>
 </resources>

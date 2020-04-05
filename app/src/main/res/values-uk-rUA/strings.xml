@@ -4,7 +4,8 @@
     <string name="detect_text_buttun">Виявити</string>
     <string name="disclamer_text">Предостереженя</string>
     <string name="disclamer_content">Ця програма не показує точний результат, якщо ви хочете бути впевнені в своєму статусі COVID-19. Будь ласка, сходіть до лікаря.</string>
-    <string name="ill_text_view">Хворий</string>
+    <string name="status_positive">Хворий</string>
+    <string name="status_negative">Здоров</string>
     <string name="instructions_end">При виявленні перших ознак захворювання, таких як сухий кашель і висока температура, зверніться за медичною допомогою, попередньо дотримуючись режим самоізоляції.</string>
     <string name="instructions_start">"Ви ще не захворіли, але знаходитися в зоні ризику, ось основні правила поведінки під час єпідемії. "</string>
     <string name="instructions_first">"1. Закривайте рот, ніс и щоки під час чихання та кашлю. "</string>
@@ -12,4 +13,23 @@
     <string name="instructions_third">"3. Перед тим як вийти на вулицю закрийте ніс, рот та щоки медицинською маскою . "</string>
     <string name="instructions_fourth">"4. Мийте руки антисептиками та милом з водою, а також оброблюйте покриття до якого хочете доторкнутися. "</string>
     <string name="instructions_five">"5. Використовуйте особисті засоби гігіени. "</string>
+    <string name="radio_but_two">Три рази на тиждень</string>
+    <string name="please_string">Будь ласка, дайте відповідь на запитання :)</string>
+    <string name="first_question">1. Як часто ви виходите з дому?</string>
+    <string name="radio_but_one">Кожного дня</string>
+    <string name="radio_but_three">Один раз в тиждень</string>
+    <string name="second_question">"2.Як часто ви миєте руки чи використовуете антисептик? "</string>
+    <string name="radio_but_four">Два рази на день</string>
+    <string name="radio_but_five">Кодного разу коли приходжу до дому</string>
+    <string name="third_question">3. Чи вважаете ви себе хворим?</string>
+    <string name="radio_but_six">Так</string>
+    <string name="radio_but_seven">Не</string>
+    <string name="submit_button">Пітвердити</string>
+    <string name="instruction_start_ill">Високий шанс того що ви захворіли!</string>
+    <string name="instruction_first_ill">1. Обмежте свою діяльність з навколишнім світом, ізолюйтеся в окремій кімнаті.</string>
+    <string name="instruction_second_ill">"2. Якщо ви живете не один то тримайте дістанцію з іншими мешканцями. "</string>
+    <string name="instruction_third_ill">3. В жодному разі не йдіть до лікарні!</string>
+    <string name="instruction_fouth_ill">4. Викличте швидку повідомивши їх, що ви можливо захворіли на COVID-19. Після вердикту лікарів дотримуйтеся всіх вказівок які вони вам дадуть.</string>
+    <string name="instruction_five_ill">5. Якщо ви точно знаете що захворіли на COVID-19, повідомте всіх людей з якими ви контактували остатнім часом щоб вони стежили за станом свого здоров’я.</string>
+    <string name="instruction_end_ill">Якщо вони мають симптоми захворювання, негайно йдуть на самоізолювання на 14 днів.</string>
 </resources>
