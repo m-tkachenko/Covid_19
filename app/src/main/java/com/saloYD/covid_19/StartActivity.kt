@@ -24,10 +24,6 @@ class StartActivity : Fragment() {
         detectButton.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_startFragment_to_collectInfo2)
         )
-        MobileAds.initialize(this.activity)
-        var mAdView = v.findViewById(R.id.adView) as AdView
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
 
         return v
     }
