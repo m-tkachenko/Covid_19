@@ -18,12 +18,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        MobileAds.initialize(this)
-        var mAdView = findViewById<AdView>(R.id.adView)
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
-
-
         val mapButton = findViewById<Button>(R.id.map_button)
 
         val textStatus : TextView = findViewById(R.id.status_text_view)
