@@ -16,10 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8286875568812475~8213383705"/>
-
         <activity android:name="com.saloYD.covid_19.MapActivity">
             <meta-data android:name = "android.support.PARENT_ACTIVITY"
                 android:value = "com.saloYD.covid_19.HomeActivity" />
